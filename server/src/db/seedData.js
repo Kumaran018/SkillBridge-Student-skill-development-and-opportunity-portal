@@ -1,0 +1,5370 @@
+export const initialSeedData = {
+  "users": [
+    {
+      "id": "usr_student_1",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@skillbridge.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Docker",
+        "Next.js",
+        "PostgreSQL",
+        "Git & GitHub"
+      ],
+      "verifiedBadges": [
+        "React Certified Pro",
+        "TypeScript Certified Pro",
+        "Hackathon Finalist '25",
+        "Top Contributor"
+      ],
+      "xpPoints": 3450,
+      "cgpa": 9.2,
+      "bio": "Final-year CSE student passionate about scalable frontend architectures, design tokens, and distributed systems. Open source contributor.",
+      "githubUrl": "https://github.com/aarav-sharma-dev",
+      "college": "National Institute of Technology",
+      "year": "4th Year"
+    },
+    {
+      "id": "usr_student_2",
+      "name": "Sneha Patel",
+      "email": "sneha.patel@skillbridge.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "PyTorch",
+        "SQL",
+        "Machine Learning Basics",
+        "Pandas & NumPy"
+      ],
+      "verifiedBadges": [
+        "Python Certified Pro",
+        "SQL Master",
+        "Data Guild Fellow",
+        "PyTorch Specialist"
+      ],
+      "xpPoints": 3240,
+      "cgpa": 9.4,
+      "bio": "AI/ML researcher and backend engineer building LLM agent workflows, RAG pipelines, and data processing systems.",
+      "githubUrl": "https://github.com/snehapatel-ai",
+      "college": "BITS Pilani",
+      "year": "3rd Year"
+    },
+    {
+      "id": "usr_student_3",
+      "name": "Rohan Kulkarni",
+      "email": "rohan.k@skillbridge.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "React",
+        "Next.js",
+        "SQL",
+        "PostgreSQL",
+        "Redis",
+        "Node.js",
+        "GraphQL"
+      ],
+      "verifiedBadges": [
+        "Fullstack Pioneer",
+        "SQL Master",
+        "Redis Certified Pro"
+      ],
+      "xpPoints": 2890,
+      "cgpa": 8.8,
+      "bio": "Full-stack developer building real-time collaboration tools, distributed caching systems, and WebSocket architectures.",
+      "githubUrl": "https://github.com/rohank-code",
+      "college": "Delhi Technological University",
+      "year": "4th Year"
+    },
+    {
+      "id": "usr_student_4",
+      "name": "Ananya Iyer",
+      "email": "ananya.iyer@skillbridge.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "UI/UX Design Principles",
+        "Figma",
+        "React",
+        "Tailwind CSS",
+        "CSS Grid & Flexbox Mastery"
+      ],
+      "verifiedBadges": [
+        "Design Systems Champion",
+        "UX Strategist",
+        "Tailwind Certified Pro"
+      ],
+      "xpPoints": 2580,
+      "cgpa": 9.1,
+      "bio": "Product designer with coding chops. Obsessed with micro-interactions, accessible UI, and scalable design systems.",
+      "githubUrl": "https://github.com/ananya-designs",
+      "college": "IIIT Hyderabad",
+      "year": "3rd Year"
+    },
+    {
+      "id": "usr_student_5",
+      "name": "Vikram Sengupta",
+      "email": "vikram.s@skillbridge.edu",
+      "role": "student",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "Python",
+        "Go (Golang)",
+        "Linux Administration",
+        "AWS Cloud",
+        "Terraform"
+      ],
+      "verifiedBadges": [
+        "Docker Certified Pro",
+        "Cloud Navigator",
+        "DevOps Prodigy",
+        "Kubernetes Certified Pro"
+      ],
+      "xpPoints": 2420,
+      "cgpa": 8.5,
+      "bio": "DevOps & cloud native enthusiast. Automating infrastructure, container security, and CI/CD pipelines since day one.",
+      "githubUrl": "https://github.com/vikrams-devops",
+      "college": "Vellore Institute of Technology",
+      "year": "3rd Year"
+    },
+    {
+      "id": "usr_recruiter_1",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@techcorp.io",
+      "role": "recruiter",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Talent Acquisition",
+        "Technical Sourcing"
+      ],
+      "verifiedBadges": [
+        "Verified Enterprise Recruiter"
+      ],
+      "xpPoints": 0,
+      "cgpa": 0,
+      "bio": "Lead University Talent Partner at Nova Labs & Enterprise Ventures.",
+      "githubUrl": "",
+      "company": "Nova Labs"
+    },
+    {
+      "id": "usr_admin_1",
+      "name": "Dr. Evelyn Reed",
+      "email": "admin@skillbridge.org",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Program Director",
+        "Curriculum Design"
+      ],
+      "verifiedBadges": [
+        "Portal SuperAdmin"
+      ],
+      "xpPoints": 0,
+      "cgpa": 0,
+      "bio": "Director of Industry Partnerships and Skill Verification at SkillBridge.",
+      "githubUrl": ""
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp_1",
+      "title": "Frontend Engineering Intern (React & Next.js)",
+      "company": "Nova Labs",
+      "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "stipend": "₹45,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-05",
+      "description": "Join Nova Labs to contribute to high-impact projects requiring strong fundamentals in React, TypeScript, Tailwind CSS. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Shortlisted",
+          "matchScore": 95
+        }
+      ]
+    },
+    {
+      "id": "opp_2",
+      "title": "AI Agent & Backend Micro-Gig",
+      "company": "Synthetix AI",
+      "logo": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "stipend": "₹25,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-06",
+      "description": "Join Synthetix AI to contribute to high-impact projects requiring strong fundamentals in Python, FastAPI, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Applied",
+          "matchScore": 97
+        },
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 85
+        }
+      ]
+    },
+    {
+      "id": "opp_3",
+      "title": "Global FinTech Hackathon 2026",
+      "company": "Nexus Financial",
+      "logo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80",
+      "location": "Mumbai (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "React",
+        "SQL",
+        "Docker"
+      ],
+      "stipend": "₹3,50,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-07",
+      "description": "Join Nexus Financial to contribute to high-impact projects requiring strong fundamentals in React, SQL, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Selected",
+          "matchScore": 85
+        }
+      ]
+    },
+    {
+      "id": "opp_4",
+      "title": "Database Optimization & Analytics Micro-Gig",
+      "company": "DataPulse Systems",
+      "logo": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "SQL",
+        "Python"
+      ],
+      "stipend": "₹18,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-08",
+      "description": "Join DataPulse Systems to contribute to high-impact projects requiring strong fundamentals in SQL, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Applied",
+          "matchScore": 99
+        }
+      ]
+    },
+    {
+      "id": "opp_5",
+      "title": "Cloud & DevOps Apprenticeship",
+      "company": "CloudScale Infra",
+      "logo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&auto=format&fit=crop&q=80",
+      "location": "Hyderabad (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "Docker",
+        "Linux Administration",
+        "Python"
+      ],
+      "stipend": "₹40,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-09",
+      "description": "Join CloudScale Infra to contribute to high-impact projects requiring strong fundamentals in Docker, Linux Administration, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Applied",
+          "matchScore": 90
+        },
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Selected",
+          "matchScore": 96
+        }
+      ]
+    },
+    {
+      "id": "opp_6",
+      "title": "UI Design Systems & Interaction Micro-Gig",
+      "company": "Aura Creative Studio",
+      "logo": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "React",
+        "Tailwind CSS",
+        "UI/UX Design Principles"
+      ],
+      "stipend": "₹20,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-10",
+      "description": "Join Aura Creative Studio to contribute to high-impact projects requiring strong fundamentals in React, Tailwind CSS, UI/UX Design Principles. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Applied",
+          "matchScore": 93
+        }
+      ]
+    },
+    {
+      "id": "opp_7",
+      "title": "Full-Stack Web3 & Smart Contracts Hackathon",
+      "company": "Stripe",
+      "logo": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "React",
+        "Web3 & Solidity",
+        "TypeScript"
+      ],
+      "stipend": "₹5,00,000 Prize Pool",
+      "duration": "72 Hours",
+      "deadline": "2026-11-11",
+      "description": "Join Stripe to contribute to high-impact projects requiring strong fundamentals in React, Web3 & Solidity, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_1",
+          "studentName": "Aarav Sharma",
+          "email": "aarav.sharma@skillbridge.edu",
+          "appliedDate": "2026-10-02",
+          "status": "Applied",
+          "matchScore": 94
+        }
+      ]
+    },
+    {
+      "id": "opp_8",
+      "title": "Distributed Systems & Golang Apprenticeship",
+      "company": "Razorpay",
+      "logo": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "Go (Golang)",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "stipend": "₹50,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-12",
+      "description": "Join Razorpay to contribute to high-impact projects requiring strong fundamentals in Go (Golang), Docker, PostgreSQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 95
+        }
+      ]
+    },
+    {
+      "id": "opp_9",
+      "title": "LLM Fine-Tuning & RAG Pipeline Micro-Gig",
+      "company": "Databricks",
+      "logo": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Python",
+        "Prompt Engineering & LLM APIs",
+        "FastAPI"
+      ],
+      "stipend": "₹35,000 project fee",
+      "duration": "4 Weeks",
+      "deadline": "2026-11-13",
+      "description": "Join Databricks to contribute to high-impact projects requiring strong fundamentals in Python, Prompt Engineering & LLM APIs, FastAPI. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_10",
+      "title": "Mobile App Development Intern (React Native)",
+      "company": "Vercel",
+      "logo": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "React",
+        "React Native",
+        "TypeScript"
+      ],
+      "stipend": "₹42,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-14",
+      "description": "Join Vercel to contribute to high-impact projects requiring strong fundamentals in React, React Native, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_11",
+      "title": "Kubernetes Cluster Hardening Micro-Gig",
+      "company": "Supabase",
+      "logo": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Kubernetes",
+        "Docker",
+        "Linux Administration"
+      ],
+      "stipend": "₹28,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-15",
+      "description": "Join Supabase to contribute to high-impact projects requiring strong fundamentals in Kubernetes, Docker, Linux Administration. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 89
+        }
+      ]
+    },
+    {
+      "id": "opp_12",
+      "title": "Cybersecurity & Vulnerability Assessment Hackathon",
+      "company": "Postman",
+      "logo": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "Cybersecurity Fundamentals",
+        "Linux Administration",
+        "Python"
+      ],
+      "stipend": "₹4,00,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-16",
+      "description": "Join Postman to contribute to high-impact projects requiring strong fundamentals in Cybersecurity Fundamentals, Linux Administration, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_13",
+      "title": "Data Engineering & Stream Processing Intern",
+      "company": "Nova Labs",
+      "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "Apache Kafka",
+        "Python",
+        "SQL"
+      ],
+      "stipend": "₹48,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-17",
+      "description": "Join Nova Labs to contribute to high-impact projects requiring strong fundamentals in Apache Kafka, Python, SQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_14",
+      "title": "GraphQL Schema & Microservices Integration Gig",
+      "company": "Synthetix AI",
+      "logo": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "GraphQL",
+        "Node.js",
+        "TypeScript"
+      ],
+      "stipend": "₹22,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-18",
+      "description": "Join Synthetix AI to contribute to high-impact projects requiring strong fundamentals in GraphQL, Node.js, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 89
+        }
+      ]
+    },
+    {
+      "id": "opp_15",
+      "title": "Redis Distributed Caching Optimization Gig",
+      "company": "Nexus Financial",
+      "logo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80",
+      "location": "Mumbai (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Redis",
+        "Node.js",
+        "SQL"
+      ],
+      "stipend": "₹20,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-19",
+      "description": "Join Nexus Financial to contribute to high-impact projects requiring strong fundamentals in Redis, Node.js, SQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_16",
+      "title": "Rust High-Performance Systems Internship",
+      "company": "DataPulse Systems",
+      "logo": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "Rust",
+        "Linux Administration",
+        "Docker"
+      ],
+      "stipend": "₹55,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-20",
+      "description": "Join DataPulse Systems to contribute to high-impact projects requiring strong fundamentals in Rust, Linux Administration, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_17",
+      "title": "Enterprise Java & Spring Boot Micro-Gig",
+      "company": "CloudScale Infra",
+      "logo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&auto=format&fit=crop&q=80",
+      "location": "Hyderabad (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Java",
+        "SQL",
+        "Docker"
+      ],
+      "stipend": "₹25,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-21",
+      "description": "Join CloudScale Infra to contribute to high-impact projects requiring strong fundamentals in Java, SQL, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 98
+        }
+      ]
+    },
+    {
+      "id": "opp_18",
+      "title": "Next.js 15 Server Components Migration Sprint",
+      "company": "Aura Creative Studio",
+      "logo": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Next.js",
+        "React",
+        "TypeScript"
+      ],
+      "stipend": "₹30,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-22",
+      "description": "Join Aura Creative Studio to contribute to high-impact projects requiring strong fundamentals in Next.js, React, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_19",
+      "title": "Computer Vision & PyTorch Model Training Sprint",
+      "company": "Stripe",
+      "logo": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Deep Learning with PyTorch",
+        "Python",
+        "Pandas & NumPy"
+      ],
+      "stipend": "₹32,000 project fee",
+      "duration": "4 Weeks",
+      "deadline": "2026-11-23",
+      "description": "Join Stripe to contribute to high-impact projects requiring strong fundamentals in Deep Learning with PyTorch, Python, Pandas & NumPy. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_20",
+      "title": "National Collegiate AI Innovation Hackathon",
+      "company": "Razorpay",
+      "logo": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "stipend": "₹6,00,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-24",
+      "description": "Join Razorpay to contribute to high-impact projects requiring strong fundamentals in Python, FastAPI, React. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 97
+        }
+      ]
+    },
+    {
+      "id": "opp_21",
+      "title": "Frontend Engineering Intern (React & Next.js) (Cohort 2)",
+      "company": "Synthetix AI",
+      "logo": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "stipend": "₹45,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-05",
+      "description": "Join Synthetix AI to contribute to high-impact projects requiring strong fundamentals in React, TypeScript, Tailwind CSS. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_22",
+      "title": "AI Agent & Backend Micro-Gig (Cohort 2)",
+      "company": "Nexus Financial",
+      "logo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80",
+      "location": "Mumbai (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "stipend": "₹25,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-06",
+      "description": "Join Nexus Financial to contribute to high-impact projects requiring strong fundamentals in Python, FastAPI, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_23",
+      "title": "Global FinTech Hackathon 2026 (Cohort 2)",
+      "company": "DataPulse Systems",
+      "logo": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "React",
+        "SQL",
+        "Docker"
+      ],
+      "stipend": "₹3,50,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-07",
+      "description": "Join DataPulse Systems to contribute to high-impact projects requiring strong fundamentals in React, SQL, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 86
+        }
+      ]
+    },
+    {
+      "id": "opp_24",
+      "title": "Database Optimization & Analytics Micro-Gig (Cohort 2)",
+      "company": "CloudScale Infra",
+      "logo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&auto=format&fit=crop&q=80",
+      "location": "Hyderabad (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "SQL",
+        "Python"
+      ],
+      "stipend": "₹18,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-08",
+      "description": "Join CloudScale Infra to contribute to high-impact projects requiring strong fundamentals in SQL, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_25",
+      "title": "Cloud & DevOps Apprenticeship (Cohort 2)",
+      "company": "Aura Creative Studio",
+      "logo": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "Docker",
+        "Linux Administration",
+        "Python"
+      ],
+      "stipend": "₹40,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-09",
+      "description": "Join Aura Creative Studio to contribute to high-impact projects requiring strong fundamentals in Docker, Linux Administration, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_26",
+      "title": "UI Design Systems & Interaction Micro-Gig (Cohort 2)",
+      "company": "Stripe",
+      "logo": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "React",
+        "Tailwind CSS",
+        "UI/UX Design Principles"
+      ],
+      "stipend": "₹20,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-10",
+      "description": "Join Stripe to contribute to high-impact projects requiring strong fundamentals in React, Tailwind CSS, UI/UX Design Principles. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 86
+        }
+      ]
+    },
+    {
+      "id": "opp_27",
+      "title": "Full-Stack Web3 & Smart Contracts Hackathon (Cohort 2)",
+      "company": "Razorpay",
+      "logo": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "React",
+        "Web3 & Solidity",
+        "TypeScript"
+      ],
+      "stipend": "₹5,00,000 Prize Pool",
+      "duration": "72 Hours",
+      "deadline": "2026-11-11",
+      "description": "Join Razorpay to contribute to high-impact projects requiring strong fundamentals in React, Web3 & Solidity, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_28",
+      "title": "Distributed Systems & Golang Apprenticeship (Cohort 2)",
+      "company": "Databricks",
+      "logo": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "Go (Golang)",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "stipend": "₹50,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-12",
+      "description": "Join Databricks to contribute to high-impact projects requiring strong fundamentals in Go (Golang), Docker, PostgreSQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_29",
+      "title": "LLM Fine-Tuning & RAG Pipeline Micro-Gig (Cohort 2)",
+      "company": "Vercel",
+      "logo": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Python",
+        "Prompt Engineering & LLM APIs",
+        "FastAPI"
+      ],
+      "stipend": "₹35,000 project fee",
+      "duration": "4 Weeks",
+      "deadline": "2026-11-13",
+      "description": "Join Vercel to contribute to high-impact projects requiring strong fundamentals in Python, Prompt Engineering & LLM APIs, FastAPI. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 90
+        }
+      ]
+    },
+    {
+      "id": "opp_30",
+      "title": "Mobile App Development Intern (React Native) (Cohort 2)",
+      "company": "Supabase",
+      "logo": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "React",
+        "React Native",
+        "TypeScript"
+      ],
+      "stipend": "₹42,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-14",
+      "description": "Join Supabase to contribute to high-impact projects requiring strong fundamentals in React, React Native, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_31",
+      "title": "Kubernetes Cluster Hardening Micro-Gig (Cohort 2)",
+      "company": "Postman",
+      "logo": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Kubernetes",
+        "Docker",
+        "Linux Administration"
+      ],
+      "stipend": "₹28,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-15",
+      "description": "Join Postman to contribute to high-impact projects requiring strong fundamentals in Kubernetes, Docker, Linux Administration. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_32",
+      "title": "Cybersecurity & Vulnerability Assessment Hackathon (Cohort 2)",
+      "company": "Nova Labs",
+      "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "Cybersecurity Fundamentals",
+        "Linux Administration",
+        "Python"
+      ],
+      "stipend": "₹4,00,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-16",
+      "description": "Join Nova Labs to contribute to high-impact projects requiring strong fundamentals in Cybersecurity Fundamentals, Linux Administration, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 88
+        }
+      ]
+    },
+    {
+      "id": "opp_33",
+      "title": "Data Engineering & Stream Processing Intern (Cohort 2)",
+      "company": "Synthetix AI",
+      "logo": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "Apache Kafka",
+        "Python",
+        "SQL"
+      ],
+      "stipend": "₹48,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-17",
+      "description": "Join Synthetix AI to contribute to high-impact projects requiring strong fundamentals in Apache Kafka, Python, SQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_34",
+      "title": "GraphQL Schema & Microservices Integration Gig (Cohort 2)",
+      "company": "Nexus Financial",
+      "logo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80",
+      "location": "Mumbai (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "GraphQL",
+        "Node.js",
+        "TypeScript"
+      ],
+      "stipend": "₹22,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-18",
+      "description": "Join Nexus Financial to contribute to high-impact projects requiring strong fundamentals in GraphQL, Node.js, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_35",
+      "title": "Redis Distributed Caching Optimization Gig (Cohort 2)",
+      "company": "DataPulse Systems",
+      "logo": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Redis",
+        "Node.js",
+        "SQL"
+      ],
+      "stipend": "₹20,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-19",
+      "description": "Join DataPulse Systems to contribute to high-impact projects requiring strong fundamentals in Redis, Node.js, SQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 94
+        }
+      ]
+    },
+    {
+      "id": "opp_36",
+      "title": "Rust High-Performance Systems Internship (Cohort 2)",
+      "company": "CloudScale Infra",
+      "logo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&auto=format&fit=crop&q=80",
+      "location": "Hyderabad (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "Rust",
+        "Linux Administration",
+        "Docker"
+      ],
+      "stipend": "₹55,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-20",
+      "description": "Join CloudScale Infra to contribute to high-impact projects requiring strong fundamentals in Rust, Linux Administration, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_37",
+      "title": "Enterprise Java & Spring Boot Micro-Gig (Cohort 2)",
+      "company": "Aura Creative Studio",
+      "logo": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Java",
+        "SQL",
+        "Docker"
+      ],
+      "stipend": "₹25,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-21",
+      "description": "Join Aura Creative Studio to contribute to high-impact projects requiring strong fundamentals in Java, SQL, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_38",
+      "title": "Next.js 15 Server Components Migration Sprint (Cohort 2)",
+      "company": "Stripe",
+      "logo": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Next.js",
+        "React",
+        "TypeScript"
+      ],
+      "stipend": "₹30,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-22",
+      "description": "Join Stripe to contribute to high-impact projects requiring strong fundamentals in Next.js, React, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 95
+        }
+      ]
+    },
+    {
+      "id": "opp_39",
+      "title": "Computer Vision & PyTorch Model Training Sprint (Cohort 2)",
+      "company": "Razorpay",
+      "logo": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Deep Learning with PyTorch",
+        "Python",
+        "Pandas & NumPy"
+      ],
+      "stipend": "₹32,000 project fee",
+      "duration": "4 Weeks",
+      "deadline": "2026-11-23",
+      "description": "Join Razorpay to contribute to high-impact projects requiring strong fundamentals in Deep Learning with PyTorch, Python, Pandas & NumPy. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_40",
+      "title": "National Collegiate AI Innovation Hackathon (Cohort 2)",
+      "company": "Databricks",
+      "logo": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "stipend": "₹6,00,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-24",
+      "description": "Join Databricks to contribute to high-impact projects requiring strong fundamentals in Python, FastAPI, React. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_41",
+      "title": "Frontend Engineering Intern (React & Next.js) (Cohort 3)",
+      "company": "Nexus Financial",
+      "logo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80",
+      "location": "Mumbai (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "stipend": "₹45,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-05",
+      "description": "Join Nexus Financial to contribute to high-impact projects requiring strong fundamentals in React, TypeScript, Tailwind CSS. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 92
+        }
+      ]
+    },
+    {
+      "id": "opp_42",
+      "title": "AI Agent & Backend Micro-Gig (Cohort 3)",
+      "company": "DataPulse Systems",
+      "logo": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "stipend": "₹25,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-06",
+      "description": "Join DataPulse Systems to contribute to high-impact projects requiring strong fundamentals in Python, FastAPI, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_43",
+      "title": "Global FinTech Hackathon 2026 (Cohort 3)",
+      "company": "CloudScale Infra",
+      "logo": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&auto=format&fit=crop&q=80",
+      "location": "Hyderabad (Hybrid)",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "React",
+        "SQL",
+        "Docker"
+      ],
+      "stipend": "₹3,50,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-07",
+      "description": "Join CloudScale Infra to contribute to high-impact projects requiring strong fundamentals in React, SQL, Docker. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_44",
+      "title": "Database Optimization & Analytics Micro-Gig (Cohort 3)",
+      "company": "Aura Creative Studio",
+      "logo": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "SQL",
+        "Python"
+      ],
+      "stipend": "₹18,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-08",
+      "description": "Join Aura Creative Studio to contribute to high-impact projects requiring strong fundamentals in SQL, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 95
+        }
+      ]
+    },
+    {
+      "id": "opp_45",
+      "title": "Cloud & DevOps Apprenticeship (Cohort 3)",
+      "company": "Stripe",
+      "logo": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "Docker",
+        "Linux Administration",
+        "Python"
+      ],
+      "stipend": "₹40,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-09",
+      "description": "Join Stripe to contribute to high-impact projects requiring strong fundamentals in Docker, Linux Administration, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_46",
+      "title": "UI Design Systems & Interaction Micro-Gig (Cohort 3)",
+      "company": "Razorpay",
+      "logo": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "React",
+        "Tailwind CSS",
+        "UI/UX Design Principles"
+      ],
+      "stipend": "₹20,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-10",
+      "description": "Join Razorpay to contribute to high-impact projects requiring strong fundamentals in React, Tailwind CSS, UI/UX Design Principles. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_47",
+      "title": "Full-Stack Web3 & Smart Contracts Hackathon (Cohort 3)",
+      "company": "Databricks",
+      "logo": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "React",
+        "Web3 & Solidity",
+        "TypeScript"
+      ],
+      "stipend": "₹5,00,000 Prize Pool",
+      "duration": "72 Hours",
+      "deadline": "2026-11-11",
+      "description": "Join Databricks to contribute to high-impact projects requiring strong fundamentals in React, Web3 & Solidity, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 99
+        }
+      ]
+    },
+    {
+      "id": "opp_48",
+      "title": "Distributed Systems & Golang Apprenticeship (Cohort 3)",
+      "company": "Vercel",
+      "logo": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Internship",
+      "requiredSkills": [
+        "Go (Golang)",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "stipend": "₹50,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-12",
+      "description": "Join Vercel to contribute to high-impact projects requiring strong fundamentals in Go (Golang), Docker, PostgreSQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_49",
+      "title": "LLM Fine-Tuning & RAG Pipeline Micro-Gig (Cohort 3)",
+      "company": "Supabase",
+      "logo": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Python",
+        "Prompt Engineering & LLM APIs",
+        "FastAPI"
+      ],
+      "stipend": "₹35,000 project fee",
+      "duration": "4 Weeks",
+      "deadline": "2026-11-13",
+      "description": "Join Supabase to contribute to high-impact projects requiring strong fundamentals in Python, Prompt Engineering & LLM APIs, FastAPI. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_50",
+      "title": "Mobile App Development Intern (React Native) (Cohort 3)",
+      "company": "Postman",
+      "logo": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "React",
+        "React Native",
+        "TypeScript"
+      ],
+      "stipend": "₹42,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-14",
+      "description": "Join Postman to contribute to high-impact projects requiring strong fundamentals in React, React Native, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 91
+        }
+      ]
+    },
+    {
+      "id": "opp_51",
+      "title": "Kubernetes Cluster Hardening Micro-Gig (Cohort 3)",
+      "company": "Nova Labs",
+      "logo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100&auto=format&fit=crop&q=80",
+      "location": "Bengaluru (Hybrid)",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "Kubernetes",
+        "Docker",
+        "Linux Administration"
+      ],
+      "stipend": "₹28,000 project fee",
+      "duration": "3 Weeks",
+      "deadline": "2026-11-15",
+      "description": "Join Nova Labs to contribute to high-impact projects requiring strong fundamentals in Kubernetes, Docker, Linux Administration. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_52",
+      "title": "Cybersecurity & Vulnerability Assessment Hackathon (Cohort 3)",
+      "company": "Synthetix AI",
+      "logo": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Hackathon",
+      "requiredSkills": [
+        "Cybersecurity Fundamentals",
+        "Linux Administration",
+        "Python"
+      ],
+      "stipend": "₹4,00,000 Prize Pool",
+      "duration": "48 Hours",
+      "deadline": "2026-11-16",
+      "description": "Join Synthetix AI to contribute to high-impact projects requiring strong fundamentals in Cybersecurity Fundamentals, Linux Administration, Python. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    },
+    {
+      "id": "opp_53",
+      "title": "Data Engineering & Stream Processing Intern (Cohort 3)",
+      "company": "Nexus Financial",
+      "logo": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&auto=format&fit=crop&q=80",
+      "location": "Mumbai (Hybrid)",
+      "type": "Internship",
+      "requiredSkills": [
+        "Apache Kafka",
+        "Python",
+        "SQL"
+      ],
+      "stipend": "₹48,000 / month",
+      "duration": "6 Months",
+      "deadline": "2026-11-17",
+      "description": "Join Nexus Financial to contribute to high-impact projects requiring strong fundamentals in Apache Kafka, Python, SQL. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": [
+        {
+          "studentId": "usr_student_2",
+          "studentName": "Sneha Patel",
+          "email": "sneha.patel@skillbridge.edu",
+          "appliedDate": "2026-10-04",
+          "status": "Applied",
+          "matchScore": 99
+        }
+      ]
+    },
+    {
+      "id": "opp_54",
+      "title": "GraphQL Schema & Microservices Integration Gig (Cohort 3)",
+      "company": "DataPulse Systems",
+      "logo": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=100&auto=format&fit=crop&q=80",
+      "location": "Remote",
+      "type": "Micro-Gig",
+      "requiredSkills": [
+        "GraphQL",
+        "Node.js",
+        "TypeScript"
+      ],
+      "stipend": "₹22,000 project fee",
+      "duration": "2 Weeks",
+      "deadline": "2026-11-18",
+      "description": "Join DataPulse Systems to contribute to high-impact projects requiring strong fundamentals in GraphQL, Node.js, TypeScript. Mentorship from principal engineers provided.",
+      "postedDate": "2026-10-01",
+      "applicants": []
+    }
+  ],
+  "skillQuizzes": [
+    {
+      "id": "quiz_react",
+      "skillName": "React",
+      "badgeTitle": "React Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in React.",
+      "questions": [
+        {
+          "id": "q_0_0",
+          "question": "What is the primary benefit of useMemo hook?",
+          "options": [
+            "Runs side effects after paint",
+            "Memoizes calculation result between re-renders",
+            "Optimizes CSS transitions",
+            "Creates mutable references"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_0_1",
+          "question": "What are React 18 Transitions used for?",
+          "options": [
+            "Replacing client routing",
+            "Marking non-urgent state updates as interruptible",
+            "Disabling useEffect",
+            "Creating synchronous locks"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_0_2",
+          "question": "Why should keys in list elements be stable and unique?",
+          "options": [
+            "Determines CSS z-index",
+            "Enables accurate virtual DOM reconciliation",
+            "Required for Flexbox",
+            "Transpiles JSX to WebAssembly"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_0_3",
+          "question": "When does the cleanup function in useEffect run?",
+          "options": [
+            "Only on window close",
+            "Before unmount and before re-running on dependency change",
+            "After initial render only",
+            "Every tick"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_0_4",
+          "question": "What does useCallback return?",
+          "options": [
+            "A memoized callback function",
+            "A Promise",
+            "A Web Worker thread",
+            "A ref object"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": "quiz_python",
+      "skillName": "Python",
+      "badgeTitle": "Python Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Python.",
+      "questions": [
+        {
+          "id": "q_1_0",
+          "question": "What does the 'yield' keyword do inside a function?",
+          "options": [
+            "Terminates execution",
+            "Turns the function into a generator that produces values lazily",
+            "Throws an exception",
+            "Locks GIL"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_1_1",
+          "question": "Which data structure has O(1) average lookup time in Python?",
+          "options": [
+            "List",
+            "Tuple",
+            "Dictionary (dict)",
+            "Linked List"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q_1_2",
+          "question": "What is the key difference between shallow and deep copy?",
+          "options": [
+            "Shallow is for numbers only",
+            "Shallow copies references; deep copy clones nested objects recursively",
+            "No difference",
+            "Deep copy is deprecated"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_1_3",
+          "question": "What is __init__ in Python classes?",
+          "options": [
+            "A destructor",
+            "The constructor initializer method",
+            "A static method",
+            "A decorator"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_1_4",
+          "question": "What does the GIL prevent in CPython?",
+          "options": [
+            "File I/O",
+            "Multiple native threads executing Python bytecodes simultaneously",
+            "Garbage collection",
+            "Subprocess creation"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_docker",
+      "skillName": "Docker",
+      "badgeTitle": "Docker Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Docker.",
+      "questions": [
+        {
+          "id": "q_2_0",
+          "question": "What is the primary benefit of multi-stage Docker builds?",
+          "options": [
+            "Spawns multiple containers",
+            "Drastically minimizes final production image size",
+            "Replaces Kubernetes",
+            "Removes port bindings"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_2_1",
+          "question": "What is the key difference between CMD and ENTRYPOINT?",
+          "options": [
+            "CMD is Alpine only",
+            "ENTRYPOINT defines executable; CMD provides default overridable arguments",
+            "CMD is build-time only",
+            "No difference"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_2_2",
+          "question": "Which command cleans unused containers, networks, and dangling images?",
+          "options": [
+            "docker clean",
+            "docker system prune",
+            "docker kill -9",
+            "docker reset"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_2_3",
+          "question": "What are Docker Volumes used for?",
+          "options": [
+            "Managing speaker volume",
+            "Persisting data outside container writable layers",
+            "Image compression",
+            "RAM limiting"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_2_4",
+          "question": "Which flag runs a container in detached background mode?",
+          "options": [
+            "-d",
+            "-b",
+            "--bg",
+            "-q"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": "quiz_sql",
+      "skillName": "SQL",
+      "badgeTitle": "SQL Master",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in SQL.",
+      "questions": [
+        {
+          "id": "q_3_0",
+          "question": "What is the difference between WHERE and HAVING?",
+          "options": [
+            "WHERE is numeric only",
+            "WHERE filters rows before aggregation; HAVING filters groups after aggregation",
+            "HAVING cannot use GROUP BY",
+            "WHERE is deprecated"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_3_1",
+          "question": "Which index type is default for range and equality queries in relational databases?",
+          "options": [
+            "B-Tree Index",
+            "Bitmap Index",
+            "Bloom Filter",
+            "Spatial Index"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q_3_2",
+          "question": "What does an INNER JOIN return?",
+          "options": [
+            "All left rows",
+            "Only rows matching the join predicate in both tables",
+            "Cartesian product",
+            "Null rows only"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_3_3",
+          "question": "Which constraint enforces distinct values in a column?",
+          "options": [
+            "CHECK",
+            "UNIQUE",
+            "DEFAULT",
+            "FOREIGN KEY"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_3_4",
+          "question": "What does the ROW_NUMBER() window function do?",
+          "options": [
+            "Counts total rows in DB",
+            "Assigns sequential integers to rows within a partition starting at 1",
+            "Returns physical disk offset",
+            "Generates UUIDs"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_typescript",
+      "skillName": "TypeScript",
+      "badgeTitle": "TypeScript Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in TypeScript.",
+      "questions": [
+        {
+          "id": "q_4_0",
+          "question": "What is the difference between 'type' and 'interface' in TypeScript?",
+          "options": [
+            "They are completely incompatible",
+            "Interfaces can be declaration merged; types support unions and primitives",
+            "Types cannot use objects",
+            "Interfaces are runtime only"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_4_1",
+          "question": "What does the 'keyof' operator produce?",
+          "options": [
+            "Object values",
+            "A union of string/numeric literal keys of a type",
+            "Array length",
+            "A new class"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_4_2",
+          "question": "What does 'unknown' represent compared to 'any'?",
+          "options": [
+            "Same as any",
+            "Type-safe counterpart to any that requires type narrowing before use",
+            "Only for null values",
+            "A runtime error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_4_3",
+          "question": "What does the 'readonly' modifier do on properties?",
+          "options": [
+            "Encrypts property",
+            "Prevents reassignment after initialization",
+            "Hides property from console",
+            "Makes it optional"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_4_4",
+          "question": "What is a generic type in TypeScript?",
+          "options": [
+            "A type without properties",
+            "A parameterized reusable type defined with angle brackets <T>",
+            "A JavaScript global",
+            "A built-in enum"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_javascript__es6__",
+      "skillName": "JavaScript (ES6+)",
+      "badgeTitle": "JavaScript Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in JavaScript (ES6+).",
+      "questions": [
+        {
+          "id": "q_5_0",
+          "question": "What is the JavaScript Event Loop responsible for?",
+          "options": [
+            "Rendering CSS",
+            "Coordinating synchronous code execution and asynchronous callbacks in the queue",
+            "Compiling HTML",
+            "Garbage collection only"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_5_1",
+          "question": "What is closure in JavaScript?",
+          "options": [
+            "Closing the browser tab",
+            "A function that retains access to its lexical scope even when executed outside that scope",
+            "A try-catch block",
+            "A sealed object"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_5_2",
+          "question": "What does Promise.all() do when one promise rejects?",
+          "options": [
+            "Ignores rejection",
+            "Immediately rejects with that reason",
+            "Waits for remaining promises",
+            "Retries indefinitely"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_5_3",
+          "question": "What is the difference between == and ===?",
+          "options": [
+            "=== performs type coercion",
+            "=== checks both value and type without coercion",
+            "No difference in ES6",
+            "== is faster"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_5_4",
+          "question": "What does Array.prototype.reduce() return?",
+          "options": [
+            "Always an array",
+            "A single accumulated value resulting from the reducer callback",
+            "A boolean",
+            "A string only"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_node_js",
+      "skillName": "Node.js",
+      "badgeTitle": "Node.js Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Node.js.",
+      "questions": [
+        {
+          "id": "q_6_0",
+          "question": "What engine powers Node.js under the hood?",
+          "options": [
+            "SpiderMonkey",
+            "V8 Engine",
+            "JavaScriptCore",
+            "Chakra"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_6_1",
+          "question": "What does process.nextTick() do?",
+          "options": [
+            "Runs on the next hour",
+            "Schedules callback to run before the next event loop iteration",
+            "Sleeps the process",
+            "Forces garbage collection"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_6_2",
+          "question": "Why should synchronous fs functions like readFileSync be avoided in web servers?",
+          "options": [
+            "They corrupt data",
+            "They block the entire Node.js single-threaded event loop",
+            "They require root access",
+            "They are deprecated"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_6_3",
+          "question": "What is libuv in Node.js architecture?",
+          "options": [
+            "A package manager",
+            "A multi-platform C library providing asynchronous I/O and thread pooling",
+            "A testing framework",
+            "A JSX compiler"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_6_4",
+          "question": "How do Node.js Streams improve memory efficiency?",
+          "options": [
+            "Compressing variables",
+            "Processing data piece by piece (chunking) without loading whole files into RAM",
+            "Using swap space",
+            "Disabling buffers"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_next_js",
+      "skillName": "Next.js",
+      "badgeTitle": "Next.js Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Next.js.",
+      "questions": [
+        {
+          "id": "q_7_0",
+          "question": "What is the key benefit of React Server Components (RSC) in Next.js App Router?",
+          "options": [
+            "Zero JavaScript bundle sent to the client for server-rendered components",
+            "Automatic CSS conversion",
+            "Replaces REST APIs with XML",
+            "Disables hydration"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q_7_1",
+          "question": "What does the 'use client' directive declare in Next.js?",
+          "options": [
+            "Declares client boundary where interactive hooks like useState/useEffect can be used",
+            "Imports client secret keys",
+            "Sets browser cookies",
+            "Enables PWA"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q_7_2",
+          "question": "What is Incremental Static Regeneration (ISR)?",
+          "options": [
+            "Rebuilding entire site on every request",
+            "Updating specific static pages in the background without full rebuild",
+            "Deleting static cache",
+            "Running client web workers"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_7_3",
+          "question": "Where are Server Actions executed in Next.js?",
+          "options": [
+            "Inside the user browser",
+            "Securely on the server",
+            "Inside Edge CDN cache",
+            "On local device disk"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_7_4",
+          "question": "Which component optimizes images with lazy loading and WebP formats?",
+          "options": [
+            "<img-next>",
+            "<Image /> from 'next/image'",
+            "<Picture />",
+            "<Graphic />"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_kubernetes",
+      "skillName": "Kubernetes",
+      "badgeTitle": "Kubernetes Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Kubernetes.",
+      "questions": [
+        {
+          "id": "q_8_0",
+          "question": "What is the smallest deployable computing unit in Kubernetes?",
+          "options": [
+            "Node",
+            "Pod",
+            "Cluster",
+            "Service"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_8_1",
+          "question": "What is the primary role of a Kubernetes Deployment?",
+          "options": [
+            "Managing hardware firmware",
+            "Declaratively managing Pods, replicas, and rolling updates",
+            "Configuring DNS records",
+            "Encrypting database volumes"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_8_2",
+          "question": "What component is the distributed key-value store in a Kubernetes control plane?",
+          "options": [
+            "Redis",
+            "etcd",
+            "MongoDB",
+            "Consul"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_8_3",
+          "question": "What does a Kubernetes Service do?",
+          "options": [
+            "Reboots nodes",
+            "Provides an abstract stable network endpoint and load balancing for a set of Pods",
+            "Installs Docker",
+            "Generates SSL certificates"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_8_4",
+          "question": "What does Horizontal Pod Autoscaler (HPA) adjust?",
+          "options": [
+            "CPU clock speed",
+            "Number of Pod replicas based on observed CPU/memory utilization",
+            "Disk block size",
+            "Network bandwidth limits"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_git___github",
+      "skillName": "Git & GitHub",
+      "badgeTitle": "Git Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Git & GitHub.",
+      "questions": [
+        {
+          "id": "q_9_0",
+          "question": "What does 'git rebase' do compared to 'git merge'?",
+          "options": [
+            "Deletes commit history",
+            "Re-applies commits on top of another base tip creating a linear commit history",
+            "Creates an octopus merge commit",
+            "Disables pull requests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_9_1",
+          "question": "What does 'git cherry-pick' do?",
+          "options": [
+            "Deletes remote branch",
+            "Applies the changes introduced by a specific existing commit onto the current branch",
+            "Picks random commits",
+            "Resets staging area"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_9_2",
+          "question": "What is the purpose of the staging area in Git?",
+          "options": [
+            "Storing backup files",
+            "Allowing developers to format and review changes before committing",
+            "Tracking deleted repos",
+            "Encrypting passwords"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_9_3",
+          "question": "What does 'git stash' do?",
+          "options": [
+            "Permanently deletes uncommitted work",
+            "Temporarily shelves uncommitted changes so you can work on another branch",
+            "Creates a release tag",
+            "Forces push to main"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_9_4",
+          "question": "What is a detached HEAD state in Git?",
+          "options": [
+            "A corrupted repo",
+            "HEAD points directly to a commit rather than a branch reference",
+            "A deleted commit",
+            "Merge conflict"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_go__golang_",
+      "skillName": "Go (Golang)",
+      "badgeTitle": "Go Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Go (Golang).",
+      "questions": [
+        {
+          "id": "q_10_0",
+          "question": "What are goroutines in Go?",
+          "options": [
+            "Heavyweight OS processes",
+            "Extremely lightweight threads of execution managed by the Go runtime",
+            "Database transactions",
+            "Garbage collection loops"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_10_1",
+          "question": "How do goroutines communicate safely in Go?",
+          "options": [
+            "Shared global pointers",
+            "Channels",
+            "Mutex locks only",
+            "Filesystem writes"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_10_2",
+          "question": "What does the 'defer' keyword do in Go?",
+          "options": [
+            "Delays execution until the surrounding function returns",
+            "Cancels function execution",
+            "Runs code in background",
+            "Throws panic"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q_10_3",
+          "question": "Does Go support classical class-based inheritance?",
+          "options": [
+            "Yes with class keyword",
+            "No, Go uses composition and structural interfaces",
+            "Yes with virtual methods",
+            "Only through C extensions"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_10_4",
+          "question": "What is the zero value of an uninitialized pointer in Go?",
+          "options": [
+            "0",
+            "nil",
+            "undefined",
+            "false"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_rust",
+      "skillName": "Rust",
+      "badgeTitle": "Rust Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Rust.",
+      "questions": [
+        {
+          "id": "q_11_0",
+          "question": "What core mechanism provides memory safety without a garbage collector in Rust?",
+          "options": [
+            "Virtual Machine",
+            "Ownership and Borrow Checker system",
+            "Automatic reference counting only",
+            "Hardware page tables"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_11_1",
+          "question": "What is the difference between String and &str in Rust?",
+          "options": [
+            "No difference",
+            "String is an allocated growable heap buffer; &str is an immutable string slice",
+            "String is deprecated",
+            "&str is mutable heap memory"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_11_2",
+          "question": "What do the Option and Result enums replace in Rust?",
+          "options": [
+            "For loops",
+            "Null pointers and runtime unhandled exceptions",
+            "Structs",
+            "Macros"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_11_3",
+          "question": "What does the 'mut' keyword declare?",
+          "options": [
+            "Immutable reference",
+            "A mutable variable or binding",
+            "A multithreaded channel",
+            "A module"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_11_4",
+          "question": "What are lifetimes ('a) used for in Rust?",
+          "options": [
+            "Garbage collection timer",
+            "Helping compiler ensure that references do not outlive the data they point to",
+            "Thread sleep durations",
+            "Process uptime tracking"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_aws_cloud",
+      "skillName": "AWS Cloud",
+      "badgeTitle": "AWS Cloud Practitioner",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in AWS Cloud.",
+      "questions": [
+        {
+          "id": "q_12_0",
+          "question": "Which AWS service provides serverless event-driven compute?",
+          "options": [
+            "Amazon EC2",
+            "AWS Lambda",
+            "Amazon EBS",
+            "AWS Direct Connect"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_12_1",
+          "question": "What is the primary function of Amazon S3?",
+          "options": [
+            "Relational database",
+            "Scalable object storage for files and media",
+            "Load balancer",
+            "DNS management"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_12_2",
+          "question": "What AWS service manages domain names and DNS routing?",
+          "options": [
+            "Amazon Route 53",
+            "Amazon VPC",
+            "AWS IAM",
+            "AWS CloudTrail"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q_12_3",
+          "question": "What is an AWS IAM Role?",
+          "options": [
+            "An IAM user with permanent password",
+            "An identity with permission policies that can be assumed by trusted entities/services",
+            "An EC2 instance type",
+            "A billing account"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_12_4",
+          "question": "Which AWS service provides managed PostgreSQL and MySQL databases?",
+          "options": [
+            "Amazon DynamoDB",
+            "Amazon RDS",
+            "Amazon Redshift",
+            "AWS Elastic Beanstalk"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_postgresql",
+      "skillName": "PostgreSQL",
+      "badgeTitle": "PostgreSQL Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in PostgreSQL.",
+      "questions": [
+        {
+          "id": "q_13_0",
+          "question": "What datatype in PostgreSQL stores and indexes structured JSON with binary efficiency?",
+          "options": [
+            "TEXT",
+            "JSONB",
+            "VARCHAR",
+            "BYTEA"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_13_1",
+          "question": "What is MVCC (Multi-Version Concurrency Control) in PostgreSQL?",
+          "options": [
+            "Database replication tool",
+            "Concurrency mechanism allowing readers not to block writers and vice versa",
+            "Password hash algorithm",
+            "Connection pooler"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_13_2",
+          "question": "Which command analyzes query execution plans with actual runtime metrics?",
+          "options": [
+            "SHOW QUERY",
+            "EXPLAIN ANALYZE",
+            "SELECT PROFILE",
+            "DESCRIBE PLAN"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_13_3",
+          "question": "What are CTEs (Common Table Expressions) introduced with?",
+          "options": [
+            "WITH clause",
+            "HAVING clause",
+            "AS clause",
+            "JOIN clause"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q_13_4",
+          "question": "What does the VACUUM command do in PostgreSQL?",
+          "options": [
+            "Deletes all tables",
+            "Reclaims storage occupied by dead row tuples",
+            "Resets server root password",
+            "Encrypts tablespaces"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_mongodb",
+      "skillName": "MongoDB",
+      "badgeTitle": "MongoDB Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in MongoDB.",
+      "questions": [
+        {
+          "id": "q_14_0",
+          "question": "What document format does MongoDB use to store data internally?",
+          "options": [
+            "XML",
+            "BSON (Binary JSON)",
+            "YAML",
+            "CSV"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_14_1",
+          "question": "What is an ObjectId in MongoDB?",
+          "options": [
+            "An integer auto-increment",
+            "A 12-byte BSON type uniquely identifying documents",
+            "A database name",
+            "A username"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_14_2",
+          "question": "Which stage in the aggregation pipeline filters documents similar to find()?",
+          "options": [
+            "$project",
+            "$match",
+            "$group",
+            "$sort"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_14_3",
+          "question": "What is a Replica Set in MongoDB?",
+          "options": [
+            "A single standalone node",
+            "A group of mongod instances that maintain the same data set for high availability",
+            "A backup zip file",
+            "A sharded router"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_14_4",
+          "question": "What is Sharding used for in MongoDB?",
+          "options": [
+            "Horizontal scaling and partitioning data across multiple machines",
+            "In-memory caching",
+            "Generating SSL keys",
+            "Encrypting disk"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": "quiz_redis",
+      "skillName": "Redis",
+      "badgeTitle": "Redis Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Redis.",
+      "questions": [
+        {
+          "id": "q_15_0",
+          "question": "Where does Redis primarily store its data?",
+          "options": [
+            "On spinning magnetic hard disks",
+            "In-memory (RAM) with optional disk persistence",
+            "On tape backups",
+            "In browser cache"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_15_1",
+          "question": "Which data structure in Redis keeps elements ordered by a floating-point score?",
+          "options": [
+            "List",
+            "Sorted Set (ZSET)",
+            "Hash",
+            "Bitmap"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_15_2",
+          "question": "What persistence option in Redis writes every write command to an append log?",
+          "options": [
+            "RDB snapshots",
+            "AOF (Append Only File)",
+            "Swap cache",
+            "RAID 0"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_15_3",
+          "question": "What is the typical time complexity for GET/SET operations in Redis?",
+          "options": [
+            "O(N)",
+            "O(1)",
+            "O(log N)",
+            "O(N^2)"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_15_4",
+          "question": "What messaging pattern does Redis Pub/Sub implement?",
+          "options": [
+            "Message queuing with guaranteed ack",
+            "Publish/Subscribe publisher-subscriber paradigm",
+            "Email notifications",
+            "FTP file transfers"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_graphql",
+      "skillName": "GraphQL",
+      "badgeTitle": "GraphQL Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in GraphQL.",
+      "questions": [
+        {
+          "id": "q_16_0",
+          "question": "What major problem of REST APIs does GraphQL primarily solve?",
+          "options": [
+            "Requires XML",
+            "Over-fetching and under-fetching of data",
+            "Disables HTTPS",
+            "Limits payload size to 1KB"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_16_1",
+          "question": "What is a Resolver in GraphQL?",
+          "options": [
+            "A CSS preprocessor",
+            "A function that generates the response for a particular GraphQL schema field",
+            "A database driver",
+            "A route proxy"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_16_2",
+          "question": "Which operation in GraphQL is used to modify or insert data?",
+          "options": [
+            "Query",
+            "Mutation",
+            "Subscription",
+            "Fragment"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_16_3",
+          "question": "What operation provides real-time streaming updates from server to client?",
+          "options": [
+            "Query",
+            "Subscription",
+            "Directive",
+            "Schema"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_16_4",
+          "question": "What is the N+1 problem in GraphQL resolvers?",
+          "options": [
+            "A compiler crash",
+            "Executing one query for a parent item and N separate queries for its children",
+            "Syntax error in fragments",
+            "Network timeout"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_tailwind_css",
+      "skillName": "Tailwind CSS",
+      "badgeTitle": "Tailwind CSS Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Tailwind CSS.",
+      "questions": [
+        {
+          "id": "q_17_0",
+          "question": "What architectural approach does Tailwind CSS advocate?",
+          "options": [
+            "BEM naming convention",
+            "Utility-first CSS classes",
+            "Inline HTML style tags",
+            "Pure semantic CSS tags"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_17_1",
+          "question": "How does Tailwind remove unused CSS classes in production builds?",
+          "options": [
+            "Runtime regex parsing",
+            "Purging / Content scanner that scans files for class names at build time",
+            "Browser discarding",
+            "Server-side rendering"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_17_2",
+          "question": "What prefix in Tailwind applies styles on hover state?",
+          "options": [
+            "mouse:",
+            "hover:",
+            "active:",
+            "focus:"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_17_3",
+          "question": "What is the mobile-first breakpoint convention in Tailwind?",
+          "options": [
+            "Desktop styles applied by default; max-w for mobile",
+            "Unprefixed utilities apply to mobile; min-width prefixes (sm:, md:) apply to larger screens",
+            "Mobile styles require mobile: prefix",
+            "No breakpoints"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_17_4",
+          "question": "Where are custom colors, fonts, and theme extensions defined in Tailwind v3?",
+          "options": [
+            "tailwind.config.js",
+            "styles.scss",
+            "package.json",
+            "index.html"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": "quiz_fastapi",
+      "skillName": "FastAPI",
+      "badgeTitle": "FastAPI Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in FastAPI.",
+      "questions": [
+        {
+          "id": "q_18_0",
+          "question": "Which Python data validation library powers FastAPI?",
+          "options": [
+            "Marshmallow",
+            "Pydantic",
+            "Django ORM",
+            "Cerberus"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_18_1",
+          "question": "What ASGI server is standardly used to run FastAPI applications?",
+          "options": [
+            "Gunicorn",
+            "Uvicorn",
+            "Apache",
+            "Flask"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_18_2",
+          "question": "What automatic feature does FastAPI generate at /docs?",
+          "options": [
+            "PHPMyAdmin",
+            "Interactive OpenAPI (Swagger UI) documentation",
+            "Unit test report",
+            "Server metrics"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_18_3",
+          "question": "How are asynchronous route handlers defined in FastAPI?",
+          "options": [
+            "def async_route()",
+            "async def handler()",
+            "@async decorator",
+            "threading.Thread"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_18_4",
+          "question": "What mechanism handles authentication and shared logic injection in FastAPI?",
+          "options": [
+            "Middleware only",
+            "Dependency Injection system using Depends()",
+            "Global variables",
+            "Class inheritance"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_linux_administration",
+      "skillName": "Linux Administration",
+      "badgeTitle": "Linux SysAdmin Certified Pro",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Linux Administration.",
+      "questions": [
+        {
+          "id": "q_19_0",
+          "question": "Which command shows running processes with dynamic real-time resource usage?",
+          "options": [
+            "ps",
+            "top / htop",
+            "ls",
+            "df"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_19_1",
+          "question": "What does 'chmod 755 script.sh' grant to the file owner?",
+          "options": [
+            "Read only",
+            "Read, write, and execute permissions (rwxr-xr-x)",
+            "Execute only",
+            "No permissions"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_19_2",
+          "question": "Which system service manager is standard in modern distributions for managing daemons?",
+          "options": [
+            "SysVinit",
+            "systemd",
+            "Upstart",
+            "cron"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_19_3",
+          "question": "Which command checks disk space utilization across mounted filesystems?",
+          "options": [
+            "free -m",
+            "df -h",
+            "du -sh",
+            "fdisk -l"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_19_4",
+          "question": "What file contains the mapping of hostnames to IP addresses locally?",
+          "options": [
+            "/etc/fstab",
+            "/etc/hosts",
+            "/etc/passwd",
+            "/etc/resolv.conf"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_java",
+      "skillName": "Java",
+      "badgeTitle": "Java Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Java.",
+      "questions": [
+        {
+          "id": "q_20_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Java?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_20_1",
+          "question": "Which of the following describes an anti-pattern when working with Java?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_20_2",
+          "question": "How is error handling and observability standardly managed in production Java workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_20_3",
+          "question": "What optimization technique drastically improves execution efficiency in Java?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_20_4",
+          "question": "How does continuous integration benefit projects developed using Java?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_c__",
+      "skillName": "C++",
+      "badgeTitle": "C++ Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in C++.",
+      "questions": [
+        {
+          "id": "q_21_0",
+          "question": "What is a foundational best practice when engineering scalable systems with C++?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_21_1",
+          "question": "Which of the following describes an anti-pattern when working with C++?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_21_2",
+          "question": "How is error handling and observability standardly managed in production C++ workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_21_3",
+          "question": "What optimization technique drastically improves execution efficiency in C++?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_21_4",
+          "question": "How does continuous integration benefit projects developed using C++?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_vue_js",
+      "skillName": "Vue.js",
+      "badgeTitle": "Vue.js Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Vue.js.",
+      "questions": [
+        {
+          "id": "q_22_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Vue.js?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_22_1",
+          "question": "Which of the following describes an anti-pattern when working with Vue.js?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_22_2",
+          "question": "How is error handling and observability standardly managed in production Vue.js workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_22_3",
+          "question": "What optimization technique drastically improves execution efficiency in Vue.js?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_22_4",
+          "question": "How does continuous integration benefit projects developed using Vue.js?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_angular",
+      "skillName": "Angular",
+      "badgeTitle": "Angular Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Angular.",
+      "questions": [
+        {
+          "id": "q_23_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Angular?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_23_1",
+          "question": "Which of the following describes an anti-pattern when working with Angular?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_23_2",
+          "question": "How is error handling and observability standardly managed in production Angular workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_23_3",
+          "question": "What optimization technique drastically improves execution efficiency in Angular?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_23_4",
+          "question": "How does continuous integration benefit projects developed using Angular?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_django",
+      "skillName": "Django",
+      "badgeTitle": "Django Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Django.",
+      "questions": [
+        {
+          "id": "q_24_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Django?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_24_1",
+          "question": "Which of the following describes an anti-pattern when working with Django?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_24_2",
+          "question": "How is error handling and observability standardly managed in production Django workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_24_3",
+          "question": "What optimization technique drastically improves execution efficiency in Django?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_24_4",
+          "question": "How does continuous integration benefit projects developed using Django?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_flask",
+      "skillName": "Flask",
+      "badgeTitle": "Flask Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Flask.",
+      "questions": [
+        {
+          "id": "q_25_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Flask?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_25_1",
+          "question": "Which of the following describes an anti-pattern when working with Flask?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_25_2",
+          "question": "How is error handling and observability standardly managed in production Flask workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_25_3",
+          "question": "What optimization technique drastically improves execution efficiency in Flask?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_25_4",
+          "question": "How does continuous integration benefit projects developed using Flask?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_cybersecurity_fundamentals",
+      "skillName": "Cybersecurity Fundamentals",
+      "badgeTitle": "Cybersecurity Fundamentals Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Cybersecurity Fundamentals.",
+      "questions": [
+        {
+          "id": "q_26_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Cybersecurity Fundamentals?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_26_1",
+          "question": "Which of the following describes an anti-pattern when working with Cybersecurity Fundamentals?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_26_2",
+          "question": "How is error handling and observability standardly managed in production Cybersecurity Fundamentals workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_26_3",
+          "question": "What optimization technique drastically improves execution efficiency in Cybersecurity Fundamentals?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_26_4",
+          "question": "How does continuous integration benefit projects developed using Cybersecurity Fundamentals?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_ui_ux_design_principles",
+      "skillName": "UI/UX Design Principles",
+      "badgeTitle": "UI/UX Design Principles Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in UI/UX Design Principles.",
+      "questions": [
+        {
+          "id": "q_27_0",
+          "question": "What is a foundational best practice when engineering scalable systems with UI/UX Design Principles?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_27_1",
+          "question": "Which of the following describes an anti-pattern when working with UI/UX Design Principles?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_27_2",
+          "question": "How is error handling and observability standardly managed in production UI/UX Design Principles workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_27_3",
+          "question": "What optimization technique drastically improves execution efficiency in UI/UX Design Principles?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_27_4",
+          "question": "How does continuous integration benefit projects developed using UI/UX Design Principles?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_data_structures___algorithms",
+      "skillName": "Data Structures & Algorithms",
+      "badgeTitle": "Data Structures & Algorithms Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Data Structures & Algorithms.",
+      "questions": [
+        {
+          "id": "q_28_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Data Structures & Algorithms?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_28_1",
+          "question": "Which of the following describes an anti-pattern when working with Data Structures & Algorithms?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_28_2",
+          "question": "How is error handling and observability standardly managed in production Data Structures & Algorithms workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_28_3",
+          "question": "What optimization technique drastically improves execution efficiency in Data Structures & Algorithms?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_28_4",
+          "question": "How does continuous integration benefit projects developed using Data Structures & Algorithms?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_machine_learning_basics",
+      "skillName": "Machine Learning Basics",
+      "badgeTitle": "Machine Learning Basics Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Machine Learning Basics.",
+      "questions": [
+        {
+          "id": "q_29_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Machine Learning Basics?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_29_1",
+          "question": "Which of the following describes an anti-pattern when working with Machine Learning Basics?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_29_2",
+          "question": "How is error handling and observability standardly managed in production Machine Learning Basics workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_29_3",
+          "question": "What optimization technique drastically improves execution efficiency in Machine Learning Basics?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_29_4",
+          "question": "How does continuous integration benefit projects developed using Machine Learning Basics?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_deep_learning_with_pytorch",
+      "skillName": "Deep Learning with PyTorch",
+      "badgeTitle": "Deep Learning with PyTorch Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Deep Learning with PyTorch.",
+      "questions": [
+        {
+          "id": "q_30_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Deep Learning with PyTorch?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_30_1",
+          "question": "Which of the following describes an anti-pattern when working with Deep Learning with PyTorch?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_30_2",
+          "question": "How is error handling and observability standardly managed in production Deep Learning with PyTorch workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_30_3",
+          "question": "What optimization technique drastically improves execution efficiency in Deep Learning with PyTorch?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_30_4",
+          "question": "How does continuous integration benefit projects developed using Deep Learning with PyTorch?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_tensorflow",
+      "skillName": "TensorFlow",
+      "badgeTitle": "TensorFlow Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in TensorFlow.",
+      "questions": [
+        {
+          "id": "q_31_0",
+          "question": "What is a foundational best practice when engineering scalable systems with TensorFlow?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_31_1",
+          "question": "Which of the following describes an anti-pattern when working with TensorFlow?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_31_2",
+          "question": "How is error handling and observability standardly managed in production TensorFlow workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_31_3",
+          "question": "What optimization technique drastically improves execution efficiency in TensorFlow?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_31_4",
+          "question": "How does continuous integration benefit projects developed using TensorFlow?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_apache_kafka",
+      "skillName": "Apache Kafka",
+      "badgeTitle": "Apache Kafka Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Apache Kafka.",
+      "questions": [
+        {
+          "id": "q_32_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Apache Kafka?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_32_1",
+          "question": "Which of the following describes an anti-pattern when working with Apache Kafka?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_32_2",
+          "question": "How is error handling and observability standardly managed in production Apache Kafka workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_32_3",
+          "question": "What optimization technique drastically improves execution efficiency in Apache Kafka?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_32_4",
+          "question": "How does continuous integration benefit projects developed using Apache Kafka?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_ci_cd___github_actions",
+      "skillName": "CI/CD & GitHub Actions",
+      "badgeTitle": "CI/CD & GitHub Actions Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in CI/CD & GitHub Actions.",
+      "questions": [
+        {
+          "id": "q_33_0",
+          "question": "What is a foundational best practice when engineering scalable systems with CI/CD & GitHub Actions?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_33_1",
+          "question": "Which of the following describes an anti-pattern when working with CI/CD & GitHub Actions?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_33_2",
+          "question": "How is error handling and observability standardly managed in production CI/CD & GitHub Actions workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_33_3",
+          "question": "What optimization technique drastically improves execution efficiency in CI/CD & GitHub Actions?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_33_4",
+          "question": "How does continuous integration benefit projects developed using CI/CD & GitHub Actions?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_terraform",
+      "skillName": "Terraform",
+      "badgeTitle": "Terraform Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Terraform.",
+      "questions": [
+        {
+          "id": "q_34_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Terraform?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_34_1",
+          "question": "Which of the following describes an anti-pattern when working with Terraform?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_34_2",
+          "question": "How is error handling and observability standardly managed in production Terraform workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_34_3",
+          "question": "What optimization technique drastically improves execution efficiency in Terraform?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_34_4",
+          "question": "How does continuous integration benefit projects developed using Terraform?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_websockets___real_time_systems",
+      "skillName": "WebSockets & Real-Time Systems",
+      "badgeTitle": "WebSockets & Real-Time Systems Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in WebSockets & Real-Time Systems.",
+      "questions": [
+        {
+          "id": "q_35_0",
+          "question": "What is a foundational best practice when engineering scalable systems with WebSockets & Real-Time Systems?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_35_1",
+          "question": "Which of the following describes an anti-pattern when working with WebSockets & Real-Time Systems?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_35_2",
+          "question": "How is error handling and observability standardly managed in production WebSockets & Real-Time Systems workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_35_3",
+          "question": "What optimization technique drastically improves execution efficiency in WebSockets & Real-Time Systems?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_35_4",
+          "question": "How does continuous integration benefit projects developed using WebSockets & Real-Time Systems?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_microservices_architecture",
+      "skillName": "Microservices Architecture",
+      "badgeTitle": "Microservices Architecture Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Microservices Architecture.",
+      "questions": [
+        {
+          "id": "q_36_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Microservices Architecture?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_36_1",
+          "question": "Which of the following describes an anti-pattern when working with Microservices Architecture?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_36_2",
+          "question": "How is error handling and observability standardly managed in production Microservices Architecture workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_36_3",
+          "question": "What optimization technique drastically improves execution efficiency in Microservices Architecture?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_36_4",
+          "question": "How does continuous integration benefit projects developed using Microservices Architecture?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_restful_api_design",
+      "skillName": "RESTful API Design",
+      "badgeTitle": "RESTful API Design Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in RESTful API Design.",
+      "questions": [
+        {
+          "id": "q_37_0",
+          "question": "What is a foundational best practice when engineering scalable systems with RESTful API Design?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_37_1",
+          "question": "Which of the following describes an anti-pattern when working with RESTful API Design?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_37_2",
+          "question": "How is error handling and observability standardly managed in production RESTful API Design workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_37_3",
+          "question": "What optimization technique drastically improves execution efficiency in RESTful API Design?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_37_4",
+          "question": "How does continuous integration benefit projects developed using RESTful API Design?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_react_native",
+      "skillName": "React Native",
+      "badgeTitle": "React Native Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in React Native.",
+      "questions": [
+        {
+          "id": "q_38_0",
+          "question": "What is a foundational best practice when engineering scalable systems with React Native?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_38_1",
+          "question": "Which of the following describes an anti-pattern when working with React Native?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_38_2",
+          "question": "How is error handling and observability standardly managed in production React Native workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_38_3",
+          "question": "What optimization technique drastically improves execution efficiency in React Native?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_38_4",
+          "question": "How does continuous integration benefit projects developed using React Native?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_flutter",
+      "skillName": "Flutter",
+      "badgeTitle": "Flutter Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Flutter.",
+      "questions": [
+        {
+          "id": "q_39_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Flutter?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_39_1",
+          "question": "Which of the following describes an anti-pattern when working with Flutter?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_39_2",
+          "question": "How is error handling and observability standardly managed in production Flutter workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_39_3",
+          "question": "What optimization technique drastically improves execution efficiency in Flutter?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_39_4",
+          "question": "How does continuous integration benefit projects developed using Flutter?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_swift__ios_",
+      "skillName": "Swift (iOS)",
+      "badgeTitle": "Swift (iOS) Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Swift (iOS).",
+      "questions": [
+        {
+          "id": "q_40_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Swift (iOS)?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_40_1",
+          "question": "Which of the following describes an anti-pattern when working with Swift (iOS)?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_40_2",
+          "question": "How is error handling and observability standardly managed in production Swift (iOS) workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_40_3",
+          "question": "What optimization technique drastically improves execution efficiency in Swift (iOS)?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_40_4",
+          "question": "How does continuous integration benefit projects developed using Swift (iOS)?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_kotlin__android_",
+      "skillName": "Kotlin (Android)",
+      "badgeTitle": "Kotlin (Android) Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Kotlin (Android).",
+      "questions": [
+        {
+          "id": "q_41_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Kotlin (Android)?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_41_1",
+          "question": "Which of the following describes an anti-pattern when working with Kotlin (Android)?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_41_2",
+          "question": "How is error handling and observability standardly managed in production Kotlin (Android) workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_41_3",
+          "question": "What optimization technique drastically improves execution efficiency in Kotlin (Android)?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_41_4",
+          "question": "How does continuous integration benefit projects developed using Kotlin (Android)?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_system_design",
+      "skillName": "System Design",
+      "badgeTitle": "System Design Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in System Design.",
+      "questions": [
+        {
+          "id": "q_42_0",
+          "question": "What is a foundational best practice when engineering scalable systems with System Design?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_42_1",
+          "question": "Which of the following describes an anti-pattern when working with System Design?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_42_2",
+          "question": "How is error handling and observability standardly managed in production System Design workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_42_3",
+          "question": "What optimization technique drastically improves execution efficiency in System Design?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_42_4",
+          "question": "How does continuous integration benefit projects developed using System Design?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_prompt_engineering___llm_apis",
+      "skillName": "Prompt Engineering & LLM APIs",
+      "badgeTitle": "Prompt Engineering & LLM APIs Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Prompt Engineering & LLM APIs.",
+      "questions": [
+        {
+          "id": "q_43_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Prompt Engineering & LLM APIs?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_43_1",
+          "question": "Which of the following describes an anti-pattern when working with Prompt Engineering & LLM APIs?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_43_2",
+          "question": "How is error handling and observability standardly managed in production Prompt Engineering & LLM APIs workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_43_3",
+          "question": "What optimization technique drastically improves execution efficiency in Prompt Engineering & LLM APIs?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_43_4",
+          "question": "How does continuous integration benefit projects developed using Prompt Engineering & LLM APIs?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_web3___solidity",
+      "skillName": "Web3 & Solidity",
+      "badgeTitle": "Web3 & Solidity Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Web3 & Solidity.",
+      "questions": [
+        {
+          "id": "q_44_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Web3 & Solidity?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_44_1",
+          "question": "Which of the following describes an anti-pattern when working with Web3 & Solidity?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_44_2",
+          "question": "How is error handling and observability standardly managed in production Web3 & Solidity workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_44_3",
+          "question": "What optimization technique drastically improves execution efficiency in Web3 & Solidity?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_44_4",
+          "question": "How does continuous integration benefit projects developed using Web3 & Solidity?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_apache_spark",
+      "skillName": "Apache Spark",
+      "badgeTitle": "Apache Spark Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Apache Spark.",
+      "questions": [
+        {
+          "id": "q_45_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Apache Spark?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_45_1",
+          "question": "Which of the following describes an anti-pattern when working with Apache Spark?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_45_2",
+          "question": "How is error handling and observability standardly managed in production Apache Spark workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_45_3",
+          "question": "What optimization technique drastically improves execution efficiency in Apache Spark?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_45_4",
+          "question": "How does continuous integration benefit projects developed using Apache Spark?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_pandas___numpy",
+      "skillName": "Pandas & NumPy",
+      "badgeTitle": "Pandas & NumPy Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Pandas & NumPy.",
+      "questions": [
+        {
+          "id": "q_46_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Pandas & NumPy?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_46_1",
+          "question": "Which of the following describes an anti-pattern when working with Pandas & NumPy?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_46_2",
+          "question": "How is error handling and observability standardly managed in production Pandas & NumPy workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_46_3",
+          "question": "What optimization technique drastically improves execution efficiency in Pandas & NumPy?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_46_4",
+          "question": "How does continuous integration benefit projects developed using Pandas & NumPy?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_oauth___jwt_authentication",
+      "skillName": "OAuth & JWT Authentication",
+      "badgeTitle": "OAuth & JWT Authentication Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in OAuth & JWT Authentication.",
+      "questions": [
+        {
+          "id": "q_47_0",
+          "question": "What is a foundational best practice when engineering scalable systems with OAuth & JWT Authentication?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_47_1",
+          "question": "Which of the following describes an anti-pattern when working with OAuth & JWT Authentication?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_47_2",
+          "question": "How is error handling and observability standardly managed in production OAuth & JWT Authentication workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_47_3",
+          "question": "What optimization technique drastically improves execution efficiency in OAuth & JWT Authentication?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_47_4",
+          "question": "How does continuous integration benefit projects developed using OAuth & JWT Authentication?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_css_grid___flexbox_mastery",
+      "skillName": "CSS Grid & Flexbox Mastery",
+      "badgeTitle": "CSS Grid & Flexbox Mastery Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in CSS Grid & Flexbox Mastery.",
+      "questions": [
+        {
+          "id": "q_48_0",
+          "question": "What is a foundational best practice when engineering scalable systems with CSS Grid & Flexbox Mastery?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_48_1",
+          "question": "Which of the following describes an anti-pattern when working with CSS Grid & Flexbox Mastery?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_48_2",
+          "question": "How is error handling and observability standardly managed in production CSS Grid & Flexbox Mastery workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_48_3",
+          "question": "What optimization technique drastically improves execution efficiency in CSS Grid & Flexbox Mastery?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_48_4",
+          "question": "How does continuous integration benefit projects developed using CSS Grid & Flexbox Mastery?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_web_performance___core_web_vitals",
+      "skillName": "Web Performance & Core Web Vitals",
+      "badgeTitle": "Web Performance & Core Web Vitals Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Web Performance & Core Web Vitals.",
+      "questions": [
+        {
+          "id": "q_49_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Web Performance & Core Web Vitals?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_49_1",
+          "question": "Which of the following describes an anti-pattern when working with Web Performance & Core Web Vitals?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_49_2",
+          "question": "How is error handling and observability standardly managed in production Web Performance & Core Web Vitals workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_49_3",
+          "question": "What optimization technique drastically improves execution efficiency in Web Performance & Core Web Vitals?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_49_4",
+          "question": "How does continuous integration benefit projects developed using Web Performance & Core Web Vitals?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_unit_testing__jest___vitest_",
+      "skillName": "Unit Testing (Jest & Vitest)",
+      "badgeTitle": "Unit Testing (Jest & Vitest) Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Unit Testing (Jest & Vitest).",
+      "questions": [
+        {
+          "id": "q_50_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Unit Testing (Jest & Vitest)?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_50_1",
+          "question": "Which of the following describes an anti-pattern when working with Unit Testing (Jest & Vitest)?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_50_2",
+          "question": "How is error handling and observability standardly managed in production Unit Testing (Jest & Vitest) workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_50_3",
+          "question": "What optimization technique drastically improves execution efficiency in Unit Testing (Jest & Vitest)?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_50_4",
+          "question": "How does continuous integration benefit projects developed using Unit Testing (Jest & Vitest)?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_nginx___reverse_proxies",
+      "skillName": "Nginx & Reverse Proxies",
+      "badgeTitle": "Nginx & Reverse Proxies Specialist",
+      "xpReward": 100,
+      "timeLimitSeconds": 180,
+      "description": "5-question timed benchmark covering fundamental and advanced concepts in Nginx & Reverse Proxies.",
+      "questions": [
+        {
+          "id": "q_51_0",
+          "question": "What is a foundational best practice when engineering scalable systems with Nginx & Reverse Proxies?",
+          "options": [
+            "Ignoring memory leaks",
+            "Separating concerns, modularizing logic, and profiling bottlenecks",
+            "Hardcoding production API keys",
+            "Disabling automated tests"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_51_1",
+          "question": "Which of the following describes an anti-pattern when working with Nginx & Reverse Proxies?",
+          "options": [
+            "Writing unit tests",
+            "Blocking asynchronous event loops or tightly coupling state",
+            "Using semantic versions",
+            "Enforcing strict typing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_51_2",
+          "question": "How is error handling and observability standardly managed in production Nginx & Reverse Proxies workloads?",
+          "options": [
+            "Silently catching exceptions without logging",
+            "Structured JSON logging, telemetry metrics, and graceful degradation",
+            "Printing to STDOUT only",
+            "Rebooting nodes on error"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_51_3",
+          "question": "What optimization technique drastically improves execution efficiency in Nginx & Reverse Proxies?",
+          "options": [
+            "Excessive nested loops",
+            "Appropriate indexing, caching, and algorithmic complexity minimization",
+            "Disabling garbage collection",
+            "Synchronous network calls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q_51_4",
+          "question": "How does continuous integration benefit projects developed using Nginx & Reverse Proxies?",
+          "options": [
+            "Slowing down releases",
+            "Automating testing, linting, and build verification on every pull request",
+            "Replacing developers",
+            "Removing version control"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    }
+  ],
+  "learningResources": [
+    {
+      "id": "res_1",
+      "skillName": "React",
+      "courseTitle": "React Zero to Production Mastery",
+      "url": "https://github.com/topics/react",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_2",
+      "skillName": "Python",
+      "courseTitle": "Python Zero to Production Mastery",
+      "url": "https://github.com/topics/python",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_3",
+      "skillName": "Docker",
+      "courseTitle": "Docker Zero to Production Mastery",
+      "url": "https://github.com/topics/docker",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_4",
+      "skillName": "SQL",
+      "courseTitle": "SQL Zero to Production Mastery",
+      "url": "https://github.com/topics/sql",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_5",
+      "skillName": "TypeScript",
+      "courseTitle": "TypeScript Zero to Production Mastery",
+      "url": "https://github.com/topics/typescript",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_6",
+      "skillName": "JavaScript (ES6+)",
+      "courseTitle": "JavaScript (ES6+) Zero to Production Mastery",
+      "url": "https://github.com/topics/javascript--es6--",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_7",
+      "skillName": "Node.js",
+      "courseTitle": "Node.js Zero to Production Mastery",
+      "url": "https://github.com/topics/node-js",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_8",
+      "skillName": "Next.js",
+      "courseTitle": "Next.js Zero to Production Mastery",
+      "url": "https://github.com/topics/next-js",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_9",
+      "skillName": "Kubernetes",
+      "courseTitle": "Kubernetes Zero to Production Mastery",
+      "url": "https://github.com/topics/kubernetes",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_10",
+      "skillName": "Git & GitHub",
+      "courseTitle": "Git & GitHub Zero to Production Mastery",
+      "url": "https://github.com/topics/git---github",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_11",
+      "skillName": "Go (Golang)",
+      "courseTitle": "Go (Golang) Zero to Production Mastery",
+      "url": "https://github.com/topics/go--golang-",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_12",
+      "skillName": "Rust",
+      "courseTitle": "Rust Zero to Production Mastery",
+      "url": "https://github.com/topics/rust",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_13",
+      "skillName": "AWS Cloud",
+      "courseTitle": "AWS Cloud Zero to Production Mastery",
+      "url": "https://github.com/topics/aws-cloud",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_14",
+      "skillName": "PostgreSQL",
+      "courseTitle": "PostgreSQL Zero to Production Mastery",
+      "url": "https://github.com/topics/postgresql",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_15",
+      "skillName": "MongoDB",
+      "courseTitle": "MongoDB Zero to Production Mastery",
+      "url": "https://github.com/topics/mongodb",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_16",
+      "skillName": "Redis",
+      "courseTitle": "Redis Zero to Production Mastery",
+      "url": "https://github.com/topics/redis",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_17",
+      "skillName": "GraphQL",
+      "courseTitle": "GraphQL Zero to Production Mastery",
+      "url": "https://github.com/topics/graphql",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_18",
+      "skillName": "Tailwind CSS",
+      "courseTitle": "Tailwind CSS Zero to Production Mastery",
+      "url": "https://github.com/topics/tailwind-css",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_19",
+      "skillName": "FastAPI",
+      "courseTitle": "FastAPI Zero to Production Mastery",
+      "url": "https://github.com/topics/fastapi",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_20",
+      "skillName": "Linux Administration",
+      "courseTitle": "Linux Administration Zero to Production Mastery",
+      "url": "https://github.com/topics/linux-administration",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_21",
+      "skillName": "Java",
+      "courseTitle": "Java Zero to Production Mastery",
+      "url": "https://github.com/topics/java",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_22",
+      "skillName": "C++",
+      "courseTitle": "C++ Zero to Production Mastery",
+      "url": "https://github.com/topics/c--",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_23",
+      "skillName": "Vue.js",
+      "courseTitle": "Vue.js Zero to Production Mastery",
+      "url": "https://github.com/topics/vue-js",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_24",
+      "skillName": "Angular",
+      "courseTitle": "Angular Zero to Production Mastery",
+      "url": "https://github.com/topics/angular",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_25",
+      "skillName": "Django",
+      "courseTitle": "Django Zero to Production Mastery",
+      "url": "https://github.com/topics/django",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_26",
+      "skillName": "Flask",
+      "courseTitle": "Flask Zero to Production Mastery",
+      "url": "https://github.com/topics/flask",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_27",
+      "skillName": "Cybersecurity Fundamentals",
+      "courseTitle": "Cybersecurity Fundamentals Zero to Production Mastery",
+      "url": "https://github.com/topics/cybersecurity-fundamentals",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_28",
+      "skillName": "UI/UX Design Principles",
+      "courseTitle": "UI/UX Design Principles Zero to Production Mastery",
+      "url": "https://github.com/topics/ui-ux-design-principles",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_29",
+      "skillName": "Data Structures & Algorithms",
+      "courseTitle": "Data Structures & Algorithms Zero to Production Mastery",
+      "url": "https://github.com/topics/data-structures---algorithms",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_30",
+      "skillName": "Machine Learning Basics",
+      "courseTitle": "Machine Learning Basics Zero to Production Mastery",
+      "url": "https://github.com/topics/machine-learning-basics",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_31",
+      "skillName": "Deep Learning with PyTorch",
+      "courseTitle": "Deep Learning with PyTorch Zero to Production Mastery",
+      "url": "https://github.com/topics/deep-learning-with-pytorch",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_32",
+      "skillName": "TensorFlow",
+      "courseTitle": "TensorFlow Zero to Production Mastery",
+      "url": "https://github.com/topics/tensorflow",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_33",
+      "skillName": "Apache Kafka",
+      "courseTitle": "Apache Kafka Zero to Production Mastery",
+      "url": "https://github.com/topics/apache-kafka",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_34",
+      "skillName": "CI/CD & GitHub Actions",
+      "courseTitle": "CI/CD & GitHub Actions Zero to Production Mastery",
+      "url": "https://github.com/topics/ci-cd---github-actions",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_35",
+      "skillName": "Terraform",
+      "courseTitle": "Terraform Zero to Production Mastery",
+      "url": "https://github.com/topics/terraform",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_36",
+      "skillName": "WebSockets & Real-Time Systems",
+      "courseTitle": "WebSockets & Real-Time Systems Zero to Production Mastery",
+      "url": "https://github.com/topics/websockets---real-time-systems",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_37",
+      "skillName": "Microservices Architecture",
+      "courseTitle": "Microservices Architecture Zero to Production Mastery",
+      "url": "https://github.com/topics/microservices-architecture",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_38",
+      "skillName": "RESTful API Design",
+      "courseTitle": "RESTful API Design Zero to Production Mastery",
+      "url": "https://github.com/topics/restful-api-design",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_39",
+      "skillName": "React Native",
+      "courseTitle": "React Native Zero to Production Mastery",
+      "url": "https://github.com/topics/react-native",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_40",
+      "skillName": "Flutter",
+      "courseTitle": "Flutter Zero to Production Mastery",
+      "url": "https://github.com/topics/flutter",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_41",
+      "skillName": "Swift (iOS)",
+      "courseTitle": "Swift (iOS) Zero to Production Mastery",
+      "url": "https://github.com/topics/swift--ios-",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_42",
+      "skillName": "Kotlin (Android)",
+      "courseTitle": "Kotlin (Android) Zero to Production Mastery",
+      "url": "https://github.com/topics/kotlin--android-",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_43",
+      "skillName": "System Design",
+      "courseTitle": "System Design Zero to Production Mastery",
+      "url": "https://github.com/topics/system-design",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_44",
+      "skillName": "Prompt Engineering & LLM APIs",
+      "courseTitle": "Prompt Engineering & LLM APIs Zero to Production Mastery",
+      "url": "https://github.com/topics/prompt-engineering---llm-apis",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_45",
+      "skillName": "Web3 & Solidity",
+      "courseTitle": "Web3 & Solidity Zero to Production Mastery",
+      "url": "https://github.com/topics/web3---solidity",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_46",
+      "skillName": "Apache Spark",
+      "courseTitle": "Apache Spark Zero to Production Mastery",
+      "url": "https://github.com/topics/apache-spark",
+      "difficulty": "Intermediate",
+      "provider": "MIT OpenCourseWare",
+      "duration": "12 Hours",
+      "type": "Academic Lecture Series"
+    },
+    {
+      "id": "res_47",
+      "skillName": "Pandas & NumPy",
+      "courseTitle": "Pandas & NumPy Zero to Production Mastery",
+      "url": "https://github.com/topics/pandas---numpy",
+      "difficulty": "Beginner",
+      "provider": "Harvard CS50",
+      "duration": "10 Hours",
+      "type": "Interactive Lab"
+    },
+    {
+      "id": "res_48",
+      "skillName": "OAuth & JWT Authentication",
+      "courseTitle": "OAuth & JWT Authentication Zero to Production Mastery",
+      "url": "https://github.com/topics/oauth---jwt-authentication",
+      "difficulty": "Intermediate",
+      "provider": "FullStackOpen",
+      "duration": "15 Hours",
+      "type": "Production-grade Course"
+    },
+    {
+      "id": "res_49",
+      "skillName": "CSS Grid & Flexbox Mastery",
+      "courseTitle": "CSS Grid & Flexbox Mastery Zero to Production Mastery",
+      "url": "https://github.com/topics/css-grid---flexbox-mastery",
+      "difficulty": "Advanced",
+      "provider": "Coursera & DeepLearning.AI",
+      "duration": "18 Hours",
+      "type": "Specialization Track"
+    },
+    {
+      "id": "res_50",
+      "skillName": "Web Performance & Core Web Vitals",
+      "courseTitle": "Web Performance & Core Web Vitals Zero to Production Mastery",
+      "url": "https://github.com/topics/web-performance---core-web-vitals",
+      "difficulty": "Beginner",
+      "provider": "Official Documentation",
+      "duration": "4 Hours",
+      "type": "Interactive Guide"
+    },
+    {
+      "id": "res_51",
+      "skillName": "Unit Testing (Jest & Vitest)",
+      "courseTitle": "Unit Testing (Jest & Vitest) Zero to Production Mastery",
+      "url": "https://github.com/topics/unit-testing--jest---vitest-",
+      "difficulty": "Beginner",
+      "provider": "freeCodeCamp",
+      "duration": "8 Hours",
+      "type": "Hands-on Project"
+    },
+    {
+      "id": "res_52",
+      "skillName": "Nginx & Reverse Proxies",
+      "courseTitle": "Nginx & Reverse Proxies Zero to Production Mastery",
+      "url": "https://github.com/topics/nginx---reverse-proxies",
+      "difficulty": "Advanced",
+      "provider": "Frontend Masters",
+      "duration": "6 Hours",
+      "type": "Deep Dive Video Series"
+    },
+    {
+      "id": "res_53",
+      "skillName": "React",
+      "courseTitle": "Advanced Architectural Patterns in React",
+      "url": "https://dev.to/t/react",
+      "difficulty": "Advanced",
+      "provider": "SkillBridge Engineering Guild",
+      "duration": "5 Hours",
+      "type": "Architecture Deep-Dive"
+    },
+    {
+      "id": "res_54",
+      "skillName": "Python",
+      "courseTitle": "Advanced Architectural Patterns in Python",
+      "url": "https://dev.to/t/python",
+      "difficulty": "Advanced",
+      "provider": "SkillBridge Engineering Guild",
+      "duration": "5 Hours",
+      "type": "Architecture Deep-Dive"
+    },
+    {
+      "id": "res_55",
+      "skillName": "Docker",
+      "courseTitle": "Advanced Architectural Patterns in Docker",
+      "url": "https://dev.to/t/docker",
+      "difficulty": "Advanced",
+      "provider": "SkillBridge Engineering Guild",
+      "duration": "5 Hours",
+      "type": "Architecture Deep-Dive"
+    },
+    {
+      "id": "res_56",
+      "skillName": "SQL",
+      "courseTitle": "Advanced Architectural Patterns in SQL",
+      "url": "https://dev.to/t/sql",
+      "difficulty": "Advanced",
+      "provider": "SkillBridge Engineering Guild",
+      "duration": "5 Hours",
+      "type": "Architecture Deep-Dive"
+    }
+  ]
+};

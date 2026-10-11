@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scrollbar-gutter: stable;
+  }
+
+  html, body, #root {
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply font-sans bg-[#070B12] text-slate-100;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+/* Custom scrollbars matching Deep Midnight Navy canvas */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070B12;
+}
+::-webkit-scrollbar-thumb {
+  background: #1C2638;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2A3952;
+}
+
+/* Surface Utility Classes */
+.surface-card {
+  background: #101726;
+  border: 1px solid #1C2638;
+  border-radius: 0.75rem;
+}
+
+.surface-card:hover {
+  border-color: #2A3952;
+}
+
+/* Active Sidebar Tab */
+.sidebar-tab-active {
+  background: linear-gradient(90deg, rgba(0, 230, 153, 0.16) 0%, rgba(16, 23, 38, 0) 100%);
+  border-left: 3px solid #00E699;
+  color: #00E699;
+}
+
+/* Radar Pulse Animation */
+@keyframes radar-pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-radar {
+  animation: radar-pulse 3s infinite ease-in-out;
+}
+
+/* Glow effects */
+.glow-emerald {
+  filter: drop-shadow(0 0 8px rgba(0, 230, 153, 0.4));
+}
+.glow-cyan {
+  filter: drop-shadow(0 0 8px rgba(0, 229, 255, 0.4));
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
